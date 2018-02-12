@@ -189,8 +189,6 @@ function getStats(txt) {
 
                     index = i;
 
-
-
                 }
 
         }
@@ -297,14 +295,14 @@ function getStats(txt) {
 
     let iterations = 0;
 
-    if(words.length >= 10){
+    if(allTheWords.length >= 10){
 
         iterations = 10;
 
     }
     else{
 
-        iterations = words.length;
+        iterations = allTheWords.length;
 
     }
 
